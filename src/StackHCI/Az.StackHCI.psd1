@@ -12,7 +12,7 @@
 RootModule = './Az.StackHCI.psm1'
 
 # Version number of this module.
-ModuleVersion = '2.1.2'
+ModuleVersion = '2.2.0'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Core', 'Desktop'
@@ -121,7 +121,11 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = '* Added support for installing mandatory extensions on HCI OS 22H2 and removed confirmation prompt for consent.
+* Added ability to customize the location of logs generated during registration.
+    - Custom log location can be specified by specifying an optional ''-LogsDirectory'' parameter in ''Register-AzStackHCI''.
+    - ''Get-AzStackHCILogsDirectory'' can be used to obtain the log location.
+* Increased retry count for setting up ARC integration.'
 
         # Prerelease string of this module
         # Prerelease = ''

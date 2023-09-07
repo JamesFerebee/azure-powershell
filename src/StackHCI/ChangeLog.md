@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 2.2.0
 * Added support for installing mandatory extensions on HCI OS 22H2 and removed confirmation prompt for consent.
 * Added ability to customize the location of logs generated during registration.
     - Custom log location can be specified by specifying an optional `-LogsDirectory` parameter in `Register-AzStackHCI`.
